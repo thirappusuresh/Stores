@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/highcharts"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="adapters"
+   kind="dir"/>
+<entry
+   name="highcharts-more.js"
+   checksum="933462ff8c0246f429986f112b89db9f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:05.000000Z"/>
+<entry
+   name="highcharts.js"
+   checksum="e68284ad61f841ea5f03cac5bbb285d5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:04.000000Z"/>
+<entry
+   name="highcharts.src.js"
+   checksum="3e95f99faa1eae91c6e28c0126905446"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:19.000000Z"/>
+<entry
+   name="modules"
+   kind="dir"/>
+<entry
+   name="themes"
+   kind="dir"/>
+</wc-entries>

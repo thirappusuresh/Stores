@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/skins/kama"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="dialog.css"
+   checksum="187c548c25a129f16007e302b53f37a1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:10.000000Z"/>
+<entry
+   name="dialog_ie.css"
+   checksum="62ee901c0d40852461ba8e1d51250bea"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:34.000000Z"/>
+<entry
+   name="dialog_ie7.css"
+   checksum="226aadf4f98eb4cb4962b02c92bcaee5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:25.000000Z"/>
+<entry
+   name="dialog_ie8.css"
+   checksum="28ac7e353def955820cde545b3d9d50b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:12.000000Z"/>
+<entry
+   name="dialog_iequirks.css"
+   checksum="518601062656a313cb1523774057411d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:42.000000Z"/>
+<entry
+   name="dialog_opera.css"
+   checksum="de0ff204b3c981cca40d321e5a38bc76"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:07.000000Z"/>
+<entry
+   name="editor.css"
+   checksum="c7cd5b401631ba31fee380b92dcbc07c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:32.000000Z"/>
+<entry
+   name="editor_ie.css"
+   checksum="80d489b0a3ab54f65d745b1019de381c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:28.000000Z"/>
+<entry
+   name="editor_ie7.css"
+   checksum="e7cd84a8eca28f829018ad7bcc306e43"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:42.000000Z"/>
+<entry
+   name="editor_ie8.css"
+   checksum="bd8377bcf4795d0ea14861cc1dfba757"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:30.000000Z"/>
+<entry
+   name="editor_iequirks.css"
+   checksum="4898305ef7d6f2e19b6e94b54f878a54"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:54.000000Z"/>
+<entry
+   name="icons.png"
+   checksum="d34d57b0a37a0b62ac45cdc57b3092c4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:54.000000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="readme.md"
+   checksum="9dc149a789f7cd7a601ed278790cad60"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:45.000000Z"/>
+</wc-entries>

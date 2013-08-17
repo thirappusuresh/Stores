@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/plugins/forms/dialogs"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="button.js"
+   checksum="092df4a213938c51e437c9395e788314"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:17.000000Z"/>
+<entry
+   name="checkbox.js"
+   checksum="0a10ee5dcfc20f6b6ad3961e7ec1ef3a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:27.000000Z"/>
+<entry
+   name="form.js"
+   checksum="dd2864b7063147dba33ccdffa02f05c4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:43.000000Z"/>
+<entry
+   name="hiddenfield.js"
+   checksum="dfb067c33b20a2880003dfa79d2194de"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:52.000000Z"/>
+<entry
+   name="radio.js"
+   checksum="90f679c84c207c0da8eefb33893d695b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:21.000000Z"/>
+<entry
+   name="select.js"
+   checksum="2c6669f4723ce178f79f621723d05f81"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:24.000000Z"/>
+<entry
+   name="textarea.js"
+   checksum="bf978e695a747b9cc53072557be1d2f7"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:36.000000Z"/>
+<entry
+   name="textfield.js"
+   checksum="04851f83beb18d7f4c43fbb1c19e6398"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:58.000000Z"/>
+</wc-entries>

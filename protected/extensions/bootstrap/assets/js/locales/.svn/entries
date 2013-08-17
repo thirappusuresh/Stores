@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://10.1.1.30/svn/eims"
+   name=""
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/locales"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="bootstrap-datepicker.br.js"
+   checksum="3e2f07d2d2f403ce976fdb144dc893e4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:29.000000Z"/>
+<entry
+   name="bootstrap-datepicker.cs.js"
+   checksum="650e0a7563f2a4ba67a9f3e731f122e2"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:29.000000Z"/>
+<entry
+   name="bootstrap-datepicker.da.js"
+   checksum="a5700e5959b1819abd77e0e9a800fcbf"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:42.000000Z"/>
+<entry
+   name="bootstrap-datepicker.de.js"
+   checksum="23a55369fc453baaed515945a72c7f23"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:54.000000Z"/>
+<entry
+   name="bootstrap-datepicker.es.js"
+   checksum="5996a0780037f69e622b3f92835500f1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:59.000000Z"/>
+<entry
+   name="bootstrap-datepicker.fi.js"
+   checksum="174d026b29894f235e0ba12a5796a8af"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:08.000000Z"/>
+<entry
+   name="bootstrap-datepicker.fr.js"
+   checksum="c4761bf27d96e7a4019276ee0d355c80"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:26.000000Z"/>
+<entry
+   name="bootstrap-datepicker.hu.js"
+   checksum="7b70b8d6d5f193786fdf98cc67986d41"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:46.000000Z"/>
+<entry
+   name="bootstrap-datepicker.id.js"
+   checksum="515598df97a2f8e6e4843252c1c5c899"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:31.000000Z"/>
+<entry
+   name="bootstrap-datepicker.is.js"
+   checksum="0f0418aea156abba9ef6d42ac9262c61"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:15.000000Z"/>
+<entry
+   name="bootstrap-datepicker.it.js"
+   checksum="8cdb4a87b1e02872d33e6df12bae34ae"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:53.000000Z"/>
+<entry
+   name="bootstrap-datepicker.ja.js"
+   checksum="ea47be497671b5cc0bd21b907cff5a7d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:47.000000Z"/>
+<entry
+   name="bootstrap-datepicker.kr.js"
+   checksum="3f48bd128c7034e27a4067f1a67f1fe9"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:47.000000Z"/>
+<entry
+   name="bootstrap-datepicker.lt.js"
+   checksum="32bf3ed711eff5102e340433dddf757a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:21.000000Z"/>
+<entry
+   name="bootstrap-datepicker.lv.js"
+   checksum="c0f46c498f2e4dab280c234845ce711c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:14.000000Z"/>
+<entry
+   name="bootstrap-datepicker.ms.js"
+   checksum="01adafe1cb9abbbf8e34ba9c09a05a6f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="bootstrap-datepicker.nb.js"
+   checksum="9b03faa69b748a2b3eb2913249ec592b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:29.000000Z"/>
+<entry
+   name="bootstrap-datepicker.nl.js"
+   checksum="c055aff719d3d335b22aefb176a0d0fb"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:12.000000Z"/>
+<entry
+   name="bootstrap-datepicker.pl.js"
+   checksum="3a6152c0191ef63aa584b4a30372339e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:17.000000Z"/>
+<entry
+   name="bootstrap-datepicker.pt.js"
+   checksum="c5ae7594aa8e49222c2c67487e5783a0"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:49.000000Z"/>
+<entry
+   name="bootstrap-datepicker.ru.js"
+   checksum="9a2bbe6e9fbffeb93cf0ae5d48da8a54"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:41.000000Z"/>
+<entry
+   name="bootstrap-datepicker.sv.js"
+   checksum="27ddc54addb25109de52fa901bfacbb5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:44.000000Z"/>
+<entry
+   name="bootstrap-datepicker.th.js"
+   checksum="4af42f29351e1c8cd54b85b01a7a6d51"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:28.000000Z"/>
+<entry
+   name="bootstrap-datepicker.tr.js"
+   checksum="47030528a7c2d6d2698140636314e50e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:09.000000Z"/>
+<entry
+   name="bootstrap-datepicker.zh-CN.js"
+   checksum="de74323406e942d67a11408a88ab86ae"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:19.000000Z"/>
+<entry
+   name="bootstrap-datepicker.zh-TW.js"
+   checksum="56f5e982ffede1af8cfeb21e11d35e8a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:43.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.de-DE.js"
+   checksum="1fe090b5d3e540e6155d67236a79524a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:31.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.es-ES.js"
+   checksum="0301ff7f59d5f7a6c7e685838de2a5d5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:48.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.fr-FR.js"
+   checksum="bc253ae1caa0018668a907ab3a8c9b46"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:30.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.fr-NL.js"
+   checksum="52c5fe996a8574b9fb9634d96f3b03f6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:25.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.hu-HU.js"
+   checksum="ef44de4c6650f76cba4a51b49d150084"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:53.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.pt-BR.js"
+   checksum="40bff04dddd08e511278bff16a7d4359"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:04.000000Z"/>
+<entry
+   name="bootstrap-wysihtml5.sv-SE.js"
+   checksum="e5ecb2b7ed6c4f14c189940ba8df02cb"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:20.000000Z"/>
+<entry
+   name="redactor.de.js"
+   checksum="03ded39f1ee35fe0bd7ec70642be276c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:20.000000Z"/>
+<entry
+   name="redactor.fr.js"
+   checksum="d14260dd067d7a5705e82d8c6781da0c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:32.000000Z"/>
+<entry
+   name="redactor.hu.js"
+   checksum="ae59b5db7fc1dacbf9aafc78264db6ac"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:32.000000Z"/>
+<entry
+   name="redactor.lv.js"
+   checksum="f38816bcdabaa78fcae97b77d74748b5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:16.000000Z"/>
+<entry
+   name="redactor.pl.js"
+   checksum="47487470790d87dc51a85c0f8cb121cc"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:50.000000Z"/>
+<entry
+   name="redactor.pt_br.js"
+   checksum="ddf35c07046e1133de9d14670d8101a5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:54.000000Z"/>
+<entry
+   name="redactor.ru.js"
+   checksum="1baf7b379e482caba6ccf14fb322765b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:00.000000Z"/>
+<entry
+   name="redactor.ua.js"
+   checksum="1e741cfe409079f618fdeef2c1299a59"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:08.000000Z"/>
+</wc-entries>

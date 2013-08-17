@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/plugins/imagepaste/docs"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="install.html"
+   checksum="c6c9f3594ed2400c83354cf4be2eee26"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:53.000000Z"/>
+<entry
+   name="styles.css"
+   checksum="10d76cffbeae709cd1d1bc2c9f962836"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:43.000000Z"/>
+</wc-entries>

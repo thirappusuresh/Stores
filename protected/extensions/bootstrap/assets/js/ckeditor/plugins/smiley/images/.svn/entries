@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://10.1.1.30/svn/eims"
+   name=""
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/plugins/smiley/images"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="angel_smile.gif"
+   checksum="afa3b9f5922ab14a29edaac876b9a5dd"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:04.000000Z"/>
+<entry
+   name="angry_smile.gif"
+   checksum="7ba4d0e00161b200103f5ed77e3edff8"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:48.000000Z"/>
+<entry
+   name="broken_heart.gif"
+   checksum="ef47bc5b95fcf4508c3b12cb4b5ca1e2"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:29.000000Z"/>
+<entry
+   name="confused_smile.gif"
+   checksum="07bafe9896e8c3132b04b17f3c8d32fb"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:32.000000Z"/>
+<entry
+   name="cry_smile.gif"
+   checksum="65e506443085a5022a3f70ea5184b814"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:42.000000Z"/>
+<entry
+   name="devil_smile.gif"
+   checksum="e5f58bf6ad852375b9ff4a41db2c4daf"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:56.000000Z"/>
+<entry
+   name="embaressed_smile.gif"
+   checksum="83f84ceb8be784840b7f8e49558095d8"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:04.000000Z"/>
+<entry
+   name="envelope.gif"
+   checksum="3ccafbc051beaa0dc224fb597e1d2264"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:59.000000Z"/>
+<entry
+   name="heart.gif"
+   checksum="8abe8f7fbbec2bf6e5e8c327ad3b6842"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:22.000000Z"/>
+<entry
+   name="kiss.gif"
+   checksum="97357230885c2224cabbda15e7a267d9"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:07.000000Z"/>
+<entry
+   name="lightbulb.gif"
+   checksum="ad387a2e0e7400ff09a84873839a86b6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:57.000000Z"/>
+<entry
+   name="omg_smile.gif"
+   checksum="81cfd8d8c979b7f3b2e733cc062077bd"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:52.000000Z"/>
+<entry
+   name="regular_smile.gif"
+   checksum="895f2ccbf133f411752cc847ff99a068"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:42.000000Z"/>
+<entry
+   name="sad_smile.gif"
+   checksum="e6da33dd28666d0579fb56ccadc580da"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:30.000000Z"/>
+<entry
+   name="shades_smile.gif"
+   checksum="0bb3a9a705f75a534f711ad6d5d9df2b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:03.000000Z"/>
+<entry
+   name="teeth_smile.gif"
+   checksum="572c5f85395a197237820c77018f16e2"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:55.000000Z"/>
+<entry
+   name="thumbs_down.gif"
+   checksum="50eb753262fa58d1ce5d8ac4108fe8d9"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:06.000000Z"/>
+<entry
+   name="thumbs_up.gif"
+   checksum="9c97cd1d759876471e3608df582fe8e9"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:44.000000Z"/>
+<entry
+   name="tounge_smile.gif"
+   checksum="71c132b5a59e115289e350ce68114ba1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:52.000000Z"/>
+<entry
+   name="whatchutalkingabout_smile.gif"
+   checksum="bed5fcb3b6414dd80cc065f1775b316c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:24.000000Z"/>
+<entry
+   name="wink_smile.gif"
+   checksum="0dbb4bf6e7992a05bd9961acfa1f02d0"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:03.000000Z"/>
+</wc-entries>

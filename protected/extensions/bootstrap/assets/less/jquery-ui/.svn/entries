@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/less/jquery-ui"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="accordion.less"
+   checksum="470a1a937f7e9d26c886c664d805248d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:04.000000Z"/>
+<entry
+   name="autocomplete.less"
+   checksum="1f028750643d51410bea736f45311795"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:17.000000Z"/>
+<entry
+   name="button.less"
+   checksum="305cac499272093ad37f537391c46b9b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:42.000000Z"/>
+<entry
+   name="core.less"
+   checksum="83798780a437323037fee35c1c5bc9d7"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:53.000000Z"/>
+<entry
+   name="datepicker.less"
+   checksum="6bd95e728fed49337f08e04c74e111b6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:49.000000Z"/>
+<entry
+   name="dialog.less"
+   checksum="429b0d538fd06f9afb72e2a6abe261c9"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:26.000000Z"/>
+<entry
+   name="ext-enhanced.less"
+   checksum="5ff19ce80daa0ae81f35f19fa8dc0cba"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:56.000000Z"/>
+<entry
+   name="ext-ui.daterangepicker.less"
+   checksum="00efa9ae03339a1c128d1c7a3a34abe1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:31.000000Z"/>
+<entry
+   name="ext-wijmo-theming.less"
+   checksum="efeb2e93751608b319f154d9408e23b1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:02.000000Z"/>
+<entry
+   name="icons.less"
+   checksum="fb9d1e4bc6a8879441720391e250e689"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:16.000000Z"/>
+<entry
+   name="menu.less"
+   checksum="9bee8881f4c482b6984a42193c0489bf"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:32.000000Z"/>
+<entry
+   name="mixins.less"
+   checksum="8fde3a375c183a0c2b17f07194428d2f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:43.000000Z"/>
+<entry
+   name="overlays.less"
+   checksum="2313ec0b1bf4270387abeef9f7e79748"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:57.000000Z"/>
+<entry
+   name="progressbar.less"
+   checksum="2e275a90c5f68df87eabf3e9e35f178b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:59.000000Z"/>
+<entry
+   name="resizable.less"
+   checksum="871370cc1ff5f3d6104f28af68d94efa"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:47.000000Z"/>
+<entry
+   name="selectable.less"
+   checksum="c2f66cbf40080cb209ab7aa0fa434c59"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:17.000000Z"/>
+<entry
+   name="slider.less"
+   checksum="e996adc514e10dc00080d209a627fd18"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:42.000000Z"/>
+<entry
+   name="tabs.less"
+   checksum="04d262cefb6f580ace09bced0723cae6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:41.000000Z"/>
+<entry
+   name="toolbar.less"
+   checksum="8726286c113d401c0f4e9e08b0f1fef6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:11.000000Z"/>
+<entry
+   name="variables.less"
+   checksum="a846337350b9bf71262aa63cb4fbf69c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:40.000000Z"/>
+</wc-entries>

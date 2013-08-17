@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name=".gitignore"
+   checksum="efa58a81b22d11c2af67f92ef294bfeb"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:50.000000Z"/>
+<entry
+   name="CHANGELOG.md"
+   checksum="eb46444c8573b56cd2c6bd4c10a1e33c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:36.000000Z"/>
+<entry
+   name="README.md"
+   checksum="90a1ecde0241a16c10cfe6ba9f7156b5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:21.000000Z"/>
+<entry
+   name="actions"
+   kind="dir"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   name="components"
+   kind="dir"/>
+<entry
+   name="filters"
+   kind="dir"/>
+<entry
+   name="gii"
+   kind="dir"/>
+<entry
+   name="views"
+   kind="dir"/>
+<entry
+   name="widgets"
+   kind="dir"/>
+</wc-entries>

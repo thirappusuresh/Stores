@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://10.1.1.30/svn/eims"
+   name=""
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/skins"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="kama"
+   kind="dir"/>
+<entry
+   name="moono-dark"
+   kind="dir"/>
+<entry
+   name="moono-dark.png"
+   checksum="e8c03b4274459a3c50872ea0a9b325b0"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:41.000000Z"/>
+<entry
+   name="moono-light"
+   kind="dir"/>
+<entry
+   name="moono-light.png"
+   checksum="e6ff21b6a8a1c4d8fbd8dc21f5be5c69"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:47.000000Z"/>
+</wc-entries>

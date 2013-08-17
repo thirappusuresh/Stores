@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://10.1.1.30/svn/eims"
+   name=""
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/themes/freshy2/views/site/pages"
+   committed-rev="2246"
+   kind="dir"
+   committed-date="2013-02-25T09:02:26.505000Z"/>
+<entry
+   name="about.php"
+   checksum="faf477f2d51dc6cfbdf61da447b0f2ba"
+   last-author="manish"
+   committed-rev="2246"
+   text-time="2013-02-18T09:57:16.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:02:26.505000Z"
+   prop-time="2013-02-25T08:03:31.000000Z"/>
+<entry
+   name="privacy_policy.php"
+   checksum="9e8652319c9faf3bfdfdfbb9531d8a7a"
+   last-author="manish"
+   committed-rev="2246"
+   text-time="2013-02-18T09:58:26.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:02:26.505000Z"
+   prop-time="2013-02-25T08:02:26.000000Z"/>
+<entry
+   name="terms_conditions.php"
+   checksum="28ff62abc14d1e5e14d6b5b5b307b4b1"
+   last-author="manish"
+   committed-rev="2246"
+   text-time="2013-02-18T09:59:26.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:02:26.505000Z"
+   prop-time="2013-02-25T08:04:53.000000Z"/>
+</wc-entries>

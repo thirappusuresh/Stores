@@ -1,0 +1,185 @@
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+		position: fixed;
+		
+	}
+	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+		padding: 0px 5px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-fixed-top {
+		margin: 0px;
+	}	
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (min-width: 979px) {
+
+	#span_content {
+		margin-left: 0px;
+	}	
+
+	#sidelogo {
+		width: 60px;
+		top: 41px;
+	}
+
+	#span_sidemenu {
+		width: 60px;
+	}
+	
+	#span_sidemenu img {
+		width: 60px;
+	}
+	.sf-vertical, .sf-vertical li {
+		width: 60px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	60px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: .75em 1em;
+	}
+}
+
+@media (max-width: 979px) {
+	.nav-collapse, .nav-collapse.collapse { 
+		padding-left: 48px;
+	}
+	
+	#span_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#span_content {
+		margin-left: 0px;
+	}
+
+	#sidelogo {
+		width: 40px;
+		top: 0px;
+	}
+
+	#span_sidemenu {
+		width: 40px;
+	}
+
+	#span_sidemenu img {
+		width: 40px;
+	}
+
+	.sf-vertical, .sf-vertical li {
+		width: 40px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	40px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: 3px 4px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.sidebar-nav {
+		margin-left: 30px;
+	}	
+
+	.nav-collapse, .nav-collapse.collapse { 
+		padding-left: 28px;
+	}
+
+	#span_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#span_content {
+		margin-left: 20px;
+	}
+
+	#sidelogo {
+		width: 30px;
+		top: 0px;
+	}
+
+	#span_sidemenu {
+		width: 30px;
+	}
+
+	#span_sidemenu img {
+		width: 30px;
+	}
+
+	.sf-vertical, .sf-vertical li {
+		width: 30px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	30px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: 0px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#span_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	
+	#sidelogo {
+		width: 60px;
+		top: 41px;
+	}
+
+	#span_content {
+		margin-left: 0px;
+	}
+
+	#span_sidemenu {
+		width: 60px;
+	}
+
+	#span_sidemenu img {
+		width: 60px;
+	}
+
+	.sf-vertical, .sf-vertical li {
+		width: 60px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	60px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: .75em 1em;
+	}
+}

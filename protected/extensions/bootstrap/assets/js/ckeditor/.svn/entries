@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="API-CHANGES.md"
+   checksum="bf8613f259e4c886f3a76f22c371662b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:45.000000Z"/>
+<entry
+   name="LICENSE.md"
+   checksum="2eacdb473db57295fb88aa5e75df1ca2"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:32.000000Z"/>
+<entry
+   name="ckeditor.js"
+   checksum="cbb22a402b60246bf209a7809464a5c3"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:51.000000Z"/>
+<entry
+   name="config.js"
+   checksum="ef8ac22129b2d29d36cfa116f1588c70"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:45.000000Z"/>
+<entry
+   name="contents.css"
+   checksum="e7e2cd0170d10e61dfcf34b33ca60e14"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:50.000000Z"/>
+<entry
+   name="lang"
+   kind="dir"/>
+<entry
+   name="plugins"
+   kind="dir"/>
+<entry
+   name="samples"
+   kind="dir"/>
+<entry
+   name="skins"
+   kind="dir"/>
+<entry
+   name="styles.js"
+   checksum="ea1c6d190c0bf7d8e132ee8753e2d491"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:34.000000Z"/>
+</wc-entries>

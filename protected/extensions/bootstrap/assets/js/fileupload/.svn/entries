@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/fileupload"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="canvas-to-blob.min.js"
+   checksum="786d31140124f56f748dc3aa49817adf"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:22.000000Z"/>
+<entry
+   name="cors"
+   kind="dir"/>
+<entry
+   name="jquery.fileupload-fp.js"
+   checksum="8ca47e27dc0d507a4d62c47527f8a387"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="jquery.fileupload-ip.js"
+   checksum="eb0b9f73d6713dd8a281dfea3d3e5063"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:24.000000Z"/>
+<entry
+   name="jquery.fileupload-locale.js"
+   checksum="a3e000456648ad121c8aadf7d918a4e7"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:54.000000Z"/>
+<entry
+   name="jquery.fileupload-ui.js"
+   checksum="03fafd516048352c3594b9c522b308ec"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:18.000000Z"/>
+<entry
+   name="jquery.fileupload.js"
+   checksum="f71445a9c1d13421fc2d9851183a096b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:04.000000Z"/>
+<entry
+   name="jquery.iframe-transport.js"
+   checksum="64c4919f8d8d06d25f1174f11d7a14e4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:46.000000Z"/>
+<entry
+   name="load-image.min.js"
+   checksum="4b7eb1fe0ad819d44ec98e0dbf8ce52e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:41.000000Z"/>
+<entry
+   name="main.js"
+   checksum="f1ecba9477cc6e3242d26f751ddcbe8c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:31.000000Z"/>
+<entry
+   name="tmpl.min.js"
+   checksum="411df7e2bc659d35015f7fdb7432b331"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:38.000000Z"/>
+<entry
+   name="vendor"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://10.1.1.30/svn/eims"
+   name=""
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/samples/assets"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="apidialog"
+   kind="dir"/>
+<entry
+   name="inlineall"
+   kind="dir"/>
+<entry
+   name="outputforflash"
+   kind="dir"/>
+<entry
+   name="outputxhtml"
+   kind="dir"/>
+<entry
+   name="posteddata.php"
+   checksum="8c64037d3608091175b6f87d8d1fcfd7"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="sample.css"
+   checksum="fe2b8f76baac8d81bbd23ffd2bb65404"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:52.000000Z"/>
+<entry
+   name="stylesheetparser"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/less"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="accordion.less"
+   checksum="1974d611a4b40f6f352edb35abce11d1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:30.000000Z"/>
+<entry
+   name="alerts.less"
+   checksum="1f6527d49646ea522e60c5c2e8ecf026"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:16.000000Z"/>
+<entry
+   name="bootstrap-yii.less"
+   checksum="0880a60d67d58d10ddc6fbbc80467f1d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:23.000000Z"/>
+<entry
+   name="bootstrap.less"
+   checksum="a6a5745f0ba1bb5aa08680e3cef35c16"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:45.000000Z"/>
+<entry
+   name="box.less"
+   checksum="b3f30e4834f2b698ab1fe4f3edc2ccf6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:25.000000Z"/>
+<entry
+   name="breadcrumbs.less"
+   checksum="af0e5b2ea947714c0222d03a91bee7df"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:27.000000Z"/>
+<entry
+   name="button-groups.less"
+   checksum="0af00ffd105e17b3309ad205ed60b1b5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:22.000000Z"/>
+<entry
+   name="buttons.less"
+   checksum="34fe821dda67a225f228853385208d85"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:29.000000Z"/>
+<entry
+   name="carousel.less"
+   checksum="7eaaa93377aa50d0d5c6761c1c7c8300"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:23.000000Z"/>
+<entry
+   name="close.less"
+   checksum="6608ed8ae3052306e0e7a3c97e4aa2fd"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:51.000000Z"/>
+<entry
+   name="code.less"
+   checksum="9919aa23c9f4809fd2bc8c5f07b44044"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:57.000000Z"/>
+<entry
+   name="colorpicker.less"
+   checksum="c63e5790121ff5f41ab4f729ad1e7486"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:13.000000Z"/>
+<entry
+   name="component-animations.less"
+   checksum="187f9da4ce323b12c0a84ffa2d736f6c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:01.000000Z"/>
+<entry
+   name="datepicker.less"
+   checksum="5ae3d180ecfaa5a8e61a9caec4b3f562"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:05.000000Z"/>
+<entry
+   name="daterangepicker.less"
+   checksum="25dada752e5c976e42d6285f20202c0a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:31.000000Z"/>
+<entry
+   name="dropdowns.less"
+   checksum="81fea0d5b6f6de8bdbf7d28ff6d50142"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:11.000000Z"/>
+<entry
+   name="easypiechart.less"
+   checksum="bd5c7795ec06f81936b79dbcf298a47d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:39.000000Z"/>
+<entry
+   name="editable-tooltip.less"
+   checksum="5e778b0308ad6e3a581dcc71b2e8b0c6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:44.000000Z"/>
+<entry
+   name="editable.less"
+   checksum="816dbac94936e379e38da4bf2653803f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="forms.less"
+   checksum="b4dbfe429b07da0ef2ee39f5cb55b913"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:29.000000Z"/>
+<entry
+   name="grid.less"
+   checksum="2d2437fc0a66629c5d69d2eb59931483"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:31.000000Z"/>
+<entry
+   name="hero-unit.less"
+   checksum="c9d70e67eacc36f0db73acbe25df7090"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:37.000000Z"/>
+<entry
+   name="jquery-ui"
+   kind="dir"/>
+<entry
+   name="jquery-ui-bootstrap.less"
+   checksum="a9cf79b3c816d8c33df712664df355cb"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:26.000000Z"/>
+<entry
+   name="labels-badges.less"
+   checksum="41d8e55d42d85bd00d7e820a71bc348e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="layouts.less"
+   checksum="90413797569e34a2b5e10b53d6e61087"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:47.000000Z"/>
+<entry
+   name="markdown.editor.less"
+   checksum="56be209be0e49c5494a67cb629aaa779"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:31.000000Z"/>
+<entry
+   name="media.less"
+   checksum="291dc78e3a59c66c7a1be96ccb743c8f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:39.000000Z"/>
+<entry
+   name="mixins.less"
+   checksum="5248d7354152c775b50f176b628a33e3"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:31.000000Z"/>
+<entry
+   name="modals.less"
+   checksum="9feb91877ace011083abec83532230b7"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:21.000000Z"/>
+<entry
+   name="navbar.less"
+   checksum="69667edc6e1bdaf314940114c7c75014"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:16.000000Z"/>
+<entry
+   name="navs.less"
+   checksum="37bd35aff209c5ce516fcc602e65ab3b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:32.000000Z"/>
+<entry
+   name="pager.less"
+   checksum="694fb637c2fe68fde35ee4d68f39891f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:24.000000Z"/>
+<entry
+   name="pagination.less"
+   checksum="ba84260b80e1e3462b081f1d8b148c6f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:36.000000Z"/>
+<entry
+   name="picker.less"
+   checksum="b56f95d8e3d98275792651f44f263ddf"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:22.000000Z"/>
+<entry
+   name="popovers.less"
+   checksum="a6d8f09b0b57a73edb758a96a861c920"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:36.000000Z"/>
+<entry
+   name="progress-bars.less"
+   checksum="2ba5f2c06f791713d2fa433fd724fdf0"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:18.000000Z"/>
+<entry
+   name="redactor.less"
+   checksum="746aa4acd4d76404ebb53d775a71370c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:28.000000Z"/>
+<entry
+   name="relational.less"
+   checksum="a436ea1100e4b34a7ad98a146bfff0d9"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:05.000000Z"/>
+<entry
+   name="reset.less"
+   checksum="bbf2c8ca3a9010d880d992126694d9b5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:24.000000Z"/>
+<entry
+   name="responsive-1200px-min.less"
+   checksum="0cec9870b3de459002ae746379011a6e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:47.000000Z"/>
+<entry
+   name="responsive-767px-max.less"
+   checksum="e8d099d41996a36e69f6f77fb5f7ab2c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:52.000000Z"/>
+<entry
+   name="responsive-768px-979px.less"
+   checksum="30249de0ab74c60a4e1e0730a63c0c1c"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:44.000000Z"/>
+<entry
+   name="responsive-navbar.less"
+   checksum="a41ce48e541f325c8bde248b19fc4c3a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:01.000000Z"/>
+<entry
+   name="responsive-utilities.less"
+   checksum="6d8fb590b3ecef69c87777b2c87a4a4e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:27.000000Z"/>
+<entry
+   name="responsive.less"
+   checksum="449bba795461d8d6bf93094706dfba9f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:13.000000Z"/>
+<entry
+   name="scaffolding.less"
+   checksum="f2050a8d6672d2fe7cb39a7b6109d93b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:44.000000Z"/>
+<entry
+   name="sprites.less"
+   checksum="752d3eece5c44295f6085978c47a0204"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:26.000000Z"/>
+<entry
+   name="tables.less"
+   checksum="c22f638db8d97035bb634317267e2ce5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:07.000000Z"/>
+<entry
+   name="thumbnails.less"
+   checksum="2483ef93454cdead41b84a0cccac3b50"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:02.000000Z"/>
+<entry
+   name="toggle-buttons.less"
+   checksum="c7c2768b8cc2701b38d6ff800d188ee6"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:38.000000Z"/>
+<entry
+   name="tooltip.less"
+   checksum="53e347a7f7965f74bbba48449a132b1b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:25.000000Z"/>
+<entry
+   name="type.less"
+   checksum="cc22079ca5aee1b55252d83ac87eb55e"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:55.000000Z"/>
+<entry
+   name="utilities.less"
+   checksum="c7a238b720e8ba267c6903a72743e1e4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:05.000000Z"/>
+<entry
+   name="variables.less"
+   checksum="d7b59027ae334928d9dd196158a8668b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:26.000000Z"/>
+<entry
+   name="wells.less"
+   checksum="7b11225ab45c93b4d17b17237fee17a8"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:32.000000Z"/>
+<entry
+   name="wysihtml5.less"
+   checksum="560a44b154a5d2cd1b694ac8f741c850"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:42.000000Z"/>
+<entry
+   name="wysiwyg-color.less"
+   checksum="b9814862eccd3ab5d779e7b2ae46d26f"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:37.000000Z"/>
+</wc-entries>

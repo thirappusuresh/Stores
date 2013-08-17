@@ -1,0 +1,27 @@
+.sidebar-nav legend {
+	border-left:3px solid #F2C748;; height:40px; margin-top:-1px; margin-left:-1px;
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(208,208,208,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(208,208,208,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(208,208,208,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(208,208,208,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(208,208,208,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(208,208,208,1) 100%); /* W3C */
+	font-size:15px;
+	padding:0 0 0px 10px;
+	margin:5px 0 10px -11px;
+	color:#111; 
+	text-shadow:0px 1px 1px #fff; 
+	width:100%; 
+	height:30px; 
+	line-height:30px; 
+}
+
+.profile_name {
+	margin: 0px;
+	line-height: 25px;
+}
+
+.given-name {
+	color: #F89406;
+}

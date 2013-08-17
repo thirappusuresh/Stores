@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://10.1.1.30/svn/eims"
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/plugins/devtools/lang"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="_translationstatus.txt"
+   checksum="bbbc0fdd914ced1ce2a38b04d479e9e1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:29.000000Z"/>
+<entry
+   name="bg.js"
+   checksum="35c7f912b3734b699991152b7da8b829"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:32.000000Z"/>
+<entry
+   name="cs.js"
+   checksum="017bc75c51d398b2d2338103922dd1a7"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:57.000000Z"/>
+<entry
+   name="cy.js"
+   checksum="c54388d6f469b7370aa68e1bc31f79ee"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:03.000000Z"/>
+<entry
+   name="da.js"
+   checksum="fd79e5cab9e5012b0520c8e585a9722b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:11.000000Z"/>
+<entry
+   name="de.js"
+   checksum="96f50817fe0eb0ecb3d176e2a61ff5af"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:46.000000Z"/>
+<entry
+   name="el.js"
+   checksum="da503107b61c8914071161845575c8f5"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:38.000000Z"/>
+<entry
+   name="en.js"
+   checksum="83cd87d25a84c16cea4594fd00299a71"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:39.000000Z"/>
+<entry
+   name="eo.js"
+   checksum="09ba5bb55b402f8906afc016c91615ed"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:12.000000Z"/>
+<entry
+   name="et.js"
+   checksum="a5f62bc68c2e13227fb049a051c248aa"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:36.000000Z"/>
+<entry
+   name="fa.js"
+   checksum="812dd3e9495aed8539efec40288ade20"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:57.000000Z"/>
+<entry
+   name="fi.js"
+   checksum="ef8550da256321a455f2ffb40037ec6d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:05:09.000000Z"/>
+<entry
+   name="fr.js"
+   checksum="1a44ccb2b4a48a12a3c52e02e0c2f8e3"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:16.000000Z"/>
+<entry
+   name="gu.js"
+   checksum="dcdb2d1e85697b11a481d13e533e10a1"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:48.000000Z"/>
+<entry
+   name="he.js"
+   checksum="e969d5bddc68e5e24ee69a9ccbac1286"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:19.000000Z"/>
+<entry
+   name="hr.js"
+   checksum="9cdc4c41707bfed075b74fb9aa257097"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="it.js"
+   checksum="69ff5dabbf07f20184d38b375eec854d"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:18.000000Z"/>
+<entry
+   name="nb.js"
+   checksum="bd9f93569bd3c201d7d4198a6debb794"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:30.000000Z"/>
+<entry
+   name="nl.js"
+   checksum="a42aea62cca16472f377a8a6fcd15f8a"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:59.000000Z"/>
+<entry
+   name="no.js"
+   checksum="33a421b963967142e118846c28d773a4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:12.000000Z"/>
+<entry
+   name="pl.js"
+   checksum="ea3bad49a1ca91b88ecf0bce4b85f745"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:51.000000Z"/>
+<entry
+   name="tr.js"
+   checksum="8510b615136d8a0a34613200319b4fe0"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:19.000000Z"/>
+<entry
+   name="ug.js"
+   checksum="f55b9563050bce3a1dff673d628bc42b"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:52.000000Z"/>
+<entry
+   name="uk.js"
+   checksum="cbebf55f20e35c9b752af04703aa4bb2"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:03:27.000000Z"/>
+<entry
+   name="vi.js"
+   checksum="893fd4949e1ce119f2dd504a0cd16218"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:36.000000Z"/>
+<entry
+   name="zh-cn.js"
+   checksum="2c5f6b6629669674c24e8f79825f6c04"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:04.000000Z"/>
+</wc-entries>

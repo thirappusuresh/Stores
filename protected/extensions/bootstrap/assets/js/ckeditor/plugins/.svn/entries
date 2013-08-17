@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://10.1.1.30/svn/eims"
+   name=""
+   revision="2268"
+   last-author="manish"
+   url="http://10.1.1.30/svn/eims/kenizen/trunk/kenizen/protected/extensions/bootstrap/assets/js/ckeditor/plugins"
+   committed-rev="2258"
+   kind="dir"
+   committed-date="2013-02-25T09:24:11.396000Z"/>
+<entry
+   name="a11yhelp"
+   kind="dir"/>
+<entry
+   name="about"
+   kind="dir"/>
+<entry
+   name="adobeair"
+   kind="dir"/>
+<entry
+   name="ajax"
+   kind="dir"/>
+<entry
+   name="autogrow"
+   kind="dir"/>
+<entry
+   name="bbcode"
+   kind="dir"/>
+<entry
+   name="clipboard"
+   kind="dir"/>
+<entry
+   name="colordialog"
+   kind="dir"/>
+<entry
+   name="devtools"
+   kind="dir"/>
+<entry
+   name="dialog"
+   kind="dir"/>
+<entry
+   name="dialogadvtab"
+   kind="dir"/>
+<entry
+   name="div"
+   kind="dir"/>
+<entry
+   name="divarea"
+   kind="dir"/>
+<entry
+   name="docprops"
+   kind="dir"/>
+<entry
+   name="fakeobjects"
+   kind="dir"/>
+<entry
+   name="find"
+   kind="dir"/>
+<entry
+   name="flash"
+   kind="dir"/>
+<entry
+   name="forms"
+   kind="dir"/>
+<entry
+   name="icons.png"
+   checksum="d34d57b0a37a0b62ac45cdc57b3092c4"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:04:53.000000Z"/>
+<entry
+   name="iframe"
+   kind="dir"/>
+<entry
+   name="iframedialog"
+   kind="dir"/>
+<entry
+   name="image"
+   kind="dir"/>
+<entry
+   name="imagepaste"
+   kind="dir"/>
+<entry
+   name="imagepaste2.3.zip"
+   checksum="68995f84ff8e4e3804c72c7b58efd9e0"
+   last-author="manish"
+   committed-rev="2258"
+   text-time="2013-01-26T08:05:32.000000Z"
+   kind="file"
+   committed-date="2013-02-25T09:24:11.396000Z"
+   prop-time="2013-02-25T08:02:20.000000Z"/>
+<entry
+   name="link"
+   kind="dir"/>
+<entry
+   name="liststyle"
+   kind="dir"/>
+<entry
+   name="magicline"
+   kind="dir"/>
+<entry
+   name="pagebreak"
+   kind="dir"/>
+<entry
+   name="pastefromword"
+   kind="dir"/>
+<entry
+   name="placeholder"
+   kind="dir"/>
+<entry
+   name="preview"
+   kind="dir"/>
+<entry
+   name="scayt"
+   kind="dir"/>
+<entry
+   name="selectionmark"
+   kind="dir"/>
+<entry
+   name="showblocks"
+   kind="dir"/>
+<entry
+   name="smiley"
+   kind="dir"/>
+<entry
+   name="specialchar"
+   kind="dir"/>
+<entry
+   name="stylesheetparser"
+   kind="dir"/>
+<entry
+   name="table"
+   kind="dir"/>
+<entry
+   name="tableresize"
+   kind="dir"/>
+<entry
+   name="tabletools"
+   kind="dir"/>
+<entry
+   name="templates"
+   kind="dir"/>
+<entry
+   name="toolbar"
+   kind="dir"/>
+<entry
+   name="uicolor"
+   kind="dir"/>
+<entry
+   name="wsc"
+   kind="dir"/>
+<entry
+   name="xml"
+   kind="dir"/>
+</wc-entries>

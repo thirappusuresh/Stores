@@ -1,0 +1,175 @@
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -40px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+	height: 40px;
+}
+#footer {
+	background-color: #F0F0F0;
+}
+
+#hide {
+	height: 50px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+	padding-top: 0px;
+}
+.container .credit {
+	margin: 20px 0;
+}
+
+code {
+	font-size: 80%;
+}
+
+/* site/index */
+.upload_image .button {
+	visibility: hidden;
+}  
+	
+.upload_image:hover .button {
+	visibility: visible;
+}
+
+table td, table th {
+	padding: 0px 5px;
+}
+
+#span_sidemenu {
+	/* background-color: #F0F0F0; */
+	min-height: 1px;
+}
+
+.board_icon #button {
+   visibility: hidden;
+}  
+
+.board_icon:hover #button {
+   visibility: visible;
+}
+
+.jobs .button {
+   visibility: hidden;
+}  
+
+.jobs:hover .button {
+   visibility: visible;
+}
+
+.board_icon {
+	background : #E6E6E6;
+	border: 1px solid #D6D6D6;
+	box-shadow: 2px 2px 5px #888888;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+	margin-bottom: 10px;
+	overflow: hidden;
+	height: 200px;
+}
+
+.board_icon img {
+	height: 100%;
+	width: 100%;
+}
+
+.navcontainer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+    .first { 
+    	display: block;
+    	width: auto; 
+    	cursor:pointer;
+    }
+
+	.navcontainer li ul li { 
+		display:none;color: gray;
+	}
+
+.list-view, .grid-view {
+	padding-top: 0px;
+}
+
+legend {
+	margin-bottom: 10px;
+}
+
+#item {
+  	background: #E6E6E6;
+	border: 1px solid #D6D6D6;
+	box-shadow: 2px 2px 5px #888888;
+	-moz-box-shadow: 2px 2px 5px #ccc;
+    -webkit-box-shadow: 2px 2px 5px #ccc;
+    padding: 5px;
+	margin: 5px 5px 5px 0px;
+	float: left;
+}
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: width, height;
+     -moz-transition-property: width, height;
+      -ms-transition-property: width, height;
+       -o-transition-property: width, height;
+          transition-property: width, height;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+.tooltip {
+	font-size: 14px;
+}
+
+.tooltip-inner {
+	background: #4C4C4C;
+}
+	
+.tooltip.in {
+	opacity: 1;
+}
+
+.left_link {
+	font-size: 16px; line-height: 20px;	
+}
+
+.left_line {
+	margin: 3px 0px; color:#c00;
+}
