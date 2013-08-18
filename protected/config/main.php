@@ -8,7 +8,7 @@
 return array(
 	'theme'=>'custom',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Search for Paying Guest',
+	'name'=>'Stores',
 
 	// preloading 'log' component
 	'preload'=>array('bootstrap'),

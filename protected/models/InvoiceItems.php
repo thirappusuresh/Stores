@@ -1,29 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "tbl_client_customers".
+ * This is the model class for table "tbl_invoice_items".
  *
- * The followings are the available columns in table 'tbl_client_customers':
- * @property integer $cid
- * @property string $customer_id
- * @property string $customer_name
- * @property string $address
- * @property string $site_address
- * @property string $tin
- * @property string $po_number
+ * The followings are the available columns in table 'tbl_invoice_items':
+ * @property integer $sid
+ * @property integer $iid
+ * @property integer $quantity
+ * @property integer $rate
+ * @property string $invoice_id
  * @property string $date_created
  * @property string $created_by
- *
- * The followings are the available model relations:
- * @property ClientUsers $createdBy
- * @property Clients $c
  */
-class ClientCustomers extends CActiveRecord
+class InvoiceItems extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return ClientCustomers the static model class
+	 * @return InvoiceItems the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -35,7 +29,7 @@ class ClientCustomers extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tbl_client_customers';
+		return 'tbl_invoice_items';
 	}
 
 	/**
@@ -46,12 +40,12 @@ class ClientCustomers extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cid, customer_name, address, site_address, tin, po_number, date_created, created_by', 'required'),
-			array('cid', 'numerical', 'integerOnly'=>true),
-			array('customer_name, site_address, tin, po_number, created_by', 'length', 'max'=>222),
+			array('iid, quantity, rate, invoice_id, date_created, created_by', 'required'),
+			array('iid, quantity, rate', 'numerical', 'integerOnly'=>true),
+			array('invoice_id, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cid, customer_id, customer_name, address, site_address, tin, po_number, date_created, created_by', 'safe', 'on'=>'search'),
+			array('sid, iid, quantity, rate, invoice_id, date_created, created_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,7 +58,7 @@ class ClientCustomers extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'createdBy' => array(self::BELONGS_TO, 'ClientUsers', 'created_by'),
-			'company' => array(self::BELONGS_TO, 'Clients', 'cid'),
+			'item' => array(self::BELONGS_TO, 'Items', 'iid'),
 		);
 	}
 
@@ -74,13 +68,11 @@ class ClientCustomers extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cid' => 'Cid',
-			'customer_id' => 'Customer',
-			'customer_name' => 'Customer Name',
-			'address' => 'Address',
-			'site_address' => 'Site Address',
-			'tin' => 'Tin',
-			'po_number' => 'PO Number',
+			'sid' => 'Sid',
+			'iid' => 'Item Name',
+			'quantity' => 'Quantity',
+			'rate' => 'Rate',
+			'invoice_id' => 'Invoice',
 			'date_created' => 'Date Created',
 			'created_by' => 'Created By',
 		);
@@ -97,13 +89,11 @@ class ClientCustomers extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('cid',$this->cid);
-		$criteria->compare('customer_id',$this->customer_id,true);
-		$criteria->compare('customer_name',$this->customer_name,true);
-		$criteria->compare('address',$this->address,true);
-		$criteria->compare('site_address',$this->site_address,true);
-		$criteria->compare('tin',$this->tin,true);
-		$criteria->compare('po_number',$this->po_number,true);
+		$criteria->compare('sid',$this->sid);
+		$criteria->compare('iid',$this->iid);
+		$criteria->compare('quantity',$this->quantity);
+		$criteria->compare('rate',$this->rate);
+		$criteria->compare('invoice_id',$this->invoice_id,true);
 		$criteria->compare('date_created',$this->date_created,true);
 		$criteria->compare('created_by',$this->created_by,true);
 

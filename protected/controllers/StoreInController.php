@@ -134,17 +134,24 @@ class StoreInController extends Controller
 	{
 		$model=new StoreIn;
 		$dataProvider=new CActiveDataProvider('StoreIn', array(
+											'criteria'=>array(
+										        'order'=>'date DESC',
+										    ),
 							                'pagination'=>array(
 							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
 							                )));
 		if(isset($_POST['StoreIn']))
 		{
 			$model->attributes=$_POST['StoreIn'];
-			$model->current_quantity = $model->quantity;
 			$model->date_created = date('Y-m-d H:i:s', time());
 			$model->created_by = Yii::app()->user->id;
 			if($model->save()) {
-				Yii::app()->user->setFlash('info','Successfully created!!!');
+				$item = Items::model()->find(array('select'=>'*',
+								'condition'=>'iid=:iid',
+								'params'=>array(':iid'=>$model->iid)));
+				$item->current_quantity = $item->current_quantity + $model->quantity;
+				$item->save();
+				Yii::app()->user->setFlash('info','Successfully submitted!!!');
 				$this->redirect(array('index'));
 			}
 		}

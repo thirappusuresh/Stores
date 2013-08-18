@@ -42,7 +42,7 @@ class Vat extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('vat_name, vat_percentage, date_created, created_by', 'required'),
-			array('vat_percentage', 'numerical', 'integerOnly'=>true),
+			array('vat_percentage', 'numerical'),
 			array('vat_name, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

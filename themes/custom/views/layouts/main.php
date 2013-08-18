@@ -42,10 +42,12 @@
 					  <a class="brand" href="/">Stores</a>
 					  <div class="nav-collapse collapse">
 						<ul class="nav">
-					      <li><a title="Store " href="/storeIn">Store In</a></li>
-					      <li><a title="My Profile" href="/storeOut">Store Out</a></li>
-					      <li><a title="My Profile" href="/clientCustomers">Customers</a></li>
-					      <li><a title="My Profile" href="/items">Items</a></li>
+					      <li><a title="Store In" href="/storeIn">Store In</a></li>
+					      <li><a title="Store Out" href="/storeOut">Store Out</a></li>
+					      <li><a title="Customers" href="/clientCustomers">Customers</a></li>
+					      <li><a title="Items" href="/items">Items</a></li>
+					      <li><a title="Vat" href="/vat">Vat</a></li>
+					      <li><a title="Invoice" href="/invoice/create">Invoice</a></li>
 					      <li><a title="Logout" href="/site/logout">Logout</a></li>
 					    </ul>
 					  </div><!--/.nav-collapse -->

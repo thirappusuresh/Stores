@@ -129,6 +129,9 @@ class ItemsController extends Controller
 	{
 		$model=new Items;
 		$dataProvider=new CActiveDataProvider('Items', array(
+											'criteria'=>array(
+										        'order'=>'date_created DESC',
+										    ),
 							                'pagination'=>array(
 							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
 							                )));
@@ -137,8 +140,9 @@ class ItemsController extends Controller
 			$model->attributes=$_POST['Items'];
 			$model->date_created = date('Y-m-d H:i:s', time());
 			$model->created_by = Yii::app()->user->id;
+			
 			if($model->save()) {
-				Yii::app()->user->setFlash('info','Successfully created!!!');
+				Yii::app()->user->setFlash('info','Successfully submitted!!!');
 				$this->redirect(array('index'));
 			}
 		}

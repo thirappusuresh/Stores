@@ -1,29 +1,31 @@
 <?php
 
 /**
- * This is the model class for table "tbl_client_customers".
+ * This is the model class for table "tbl_invoice".
  *
- * The followings are the available columns in table 'tbl_client_customers':
- * @property integer $cid
- * @property string $customer_id
- * @property string $customer_name
- * @property string $address
- * @property string $site_address
- * @property string $tin
- * @property string $po_number
+ * The followings are the available columns in table 'tbl_invoice':
+ * @property string $invoice_id
+ * @property integer $customer_id
+ * @property string $pump
+ * @property string $esugam
+ * @property string $cst
+ * @property string $ecc
+ * @property string $tariff
+ * @property string $commodity
+ * @property integer $vat
  * @property string $date_created
  * @property string $created_by
  *
  * The followings are the available model relations:
  * @property ClientUsers $createdBy
- * @property Clients $c
+ * @property ClientCustomers $customer
  */
-class ClientCustomers extends CActiveRecord
+class Invoice extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return ClientCustomers the static model class
+	 * @return Invoice the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -35,7 +37,7 @@ class ClientCustomers extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tbl_client_customers';
+		return 'tbl_invoice';
 	}
 
 	/**
@@ -46,12 +48,12 @@ class ClientCustomers extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cid, customer_name, address, site_address, tin, po_number, date_created, created_by', 'required'),
-			array('cid', 'numerical', 'integerOnly'=>true),
-			array('customer_name, site_address, tin, po_number, created_by', 'length', 'max'=>222),
+			array('invoice_id, customer_id, pump, esugam, cst, ecc, tariff, commodity, vat, date_created, created_by', 'required'),
+			array('customer_id, vat', 'numerical', 'integerOnly'=>true),
+			array('invoice_id, pump, esugam, cst, ecc, tariff, commodity, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cid, customer_id, customer_name, address, site_address, tin, po_number, date_created, created_by', 'safe', 'on'=>'search'),
+			array('invoice_id, customer_id, pump, esugam, cst, ecc, tariff, commodity, vat, date_created, created_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,7 +66,8 @@ class ClientCustomers extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'createdBy' => array(self::BELONGS_TO, 'ClientUsers', 'created_by'),
-			'company' => array(self::BELONGS_TO, 'Clients', 'cid'),
+			'v' => array(self::BELONGS_TO, 'Vat', 'vat'),
+			'customer' => array(self::BELONGS_TO, 'ClientCustomers', 'customer_id'),
 		);
 	}
 
@@ -74,13 +77,15 @@ class ClientCustomers extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cid' => 'Cid',
+			'invoice_id' => 'Invoice',
 			'customer_id' => 'Customer',
-			'customer_name' => 'Customer Name',
-			'address' => 'Address',
-			'site_address' => 'Site Address',
-			'tin' => 'Tin',
-			'po_number' => 'PO Number',
+			'pump' => 'Pump',
+			'esugam' => 'Esugam',
+			'cst' => 'Cst',
+			'ecc' => 'Ecc',
+			'tariff' => 'Tariff',
+			'commodity' => 'Commodity',
+			'vat' => 'Vat',
 			'date_created' => 'Date Created',
 			'created_by' => 'Created By',
 		);
@@ -97,13 +102,15 @@ class ClientCustomers extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('cid',$this->cid);
-		$criteria->compare('customer_id',$this->customer_id,true);
-		$criteria->compare('customer_name',$this->customer_name,true);
-		$criteria->compare('address',$this->address,true);
-		$criteria->compare('site_address',$this->site_address,true);
-		$criteria->compare('tin',$this->tin,true);
-		$criteria->compare('po_number',$this->po_number,true);
+		$criteria->compare('invoice_id',$this->invoice_id,true);
+		$criteria->compare('customer_id',$this->customer_id);
+		$criteria->compare('pump',$this->pump,true);
+		$criteria->compare('esugam',$this->esugam,true);
+		$criteria->compare('cst',$this->cst,true);
+		$criteria->compare('ecc',$this->ecc,true);
+		$criteria->compare('tariff',$this->tariff,true);
+		$criteria->compare('commodity',$this->commodity,true);
+		$criteria->compare('vat',$this->vat);
 		$criteria->compare('date_created',$this->date_created,true);
 		$criteria->compare('created_by',$this->created_by,true);
 

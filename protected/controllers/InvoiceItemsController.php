@@ -1,12 +1,12 @@
 <?php
 
-class VatController extends Controller
+class InvoiceItemsController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column';
+	public $layout='//layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -27,11 +27,11 @@ class VatController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('view'),
+				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','create','update'),
+				'actions'=>array('create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -61,16 +61,16 @@ class VatController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Vat;
+		$model=new InvoiceItems;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Vat']))
+		if(isset($_POST['InvoiceItems']))
 		{
-			$model->attributes=$_POST['Vat'];
+			$model->attributes=$_POST['InvoiceItems'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->vid));
+				$this->redirect(array('view','id'=>$model->sid));
 		}
 
 		$this->render('create',array(
@@ -90,11 +90,11 @@ class VatController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Vat']))
+		if(isset($_POST['InvoiceItems']))
 		{
-			$model->attributes=$_POST['Vat'];
+			$model->attributes=$_POST['InvoiceItems'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->vid));
+				$this->redirect(array('view','id'=>$model->sid));
 		}
 
 		$this->render('update',array(
@@ -127,26 +127,9 @@ class VatController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model = new Vat;
-		$dataProvider=new CActiveDataProvider('Vat', array(
-											'criteria'=>array(
-										        'order'=>'date_created DESC',
-										    ),
-							                'pagination'=>array(
-							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
-							                )));
-		if(isset($_POST['Vat']))
-		{
-			$model->attributes=$_POST['Vat'];
-			$model->date_created = date('Y-m-d H:i:s', time());
-			$model->created_by = Yii::app()->user->id;
-			if($model->save()) {
-				Yii::app()->user->setFlash('info','Successfully submitted!!!');
-				$this->redirect(array('index'));
-			}
-		}
+		$dataProvider=new CActiveDataProvider('InvoiceItems');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider, 'model'=>$model
+			'dataProvider'=>$dataProvider,
 		));
 	}
 
@@ -155,10 +138,10 @@ class VatController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Vat('search');
+		$model=new InvoiceItems('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Vat']))
-			$model->attributes=$_GET['Vat'];
+		if(isset($_GET['InvoiceItems']))
+			$model->attributes=$_GET['InvoiceItems'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -172,7 +155,7 @@ class VatController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Vat::model()->findByPk($id);
+		$model=InvoiceItems::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -184,7 +167,7 @@ class VatController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='vat-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='invoice-items-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

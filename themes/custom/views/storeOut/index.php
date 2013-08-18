@@ -91,7 +91,7 @@
 		
 			<?php echo $form->textAreaRow($model,'issued_to',array('rows'=>3, 'cols'=>50, 'class'=>'span11')); ?>
 		
-			<?php echo $form->textFieldRow($model,'rate',array('class'=>'span11')); ?>
+			<?php echo $form->textFieldRow($model,'rate',array('class'=>'span11 rate')); ?>
 		
 			<div class="form-actions">
 				<?php $this->widget('bootstrap.widgets.TbButton', array(
@@ -140,6 +140,7 @@
 		  		$("#uom").show();
 		  		$(".uom").html("<p class=\"help-block\">UOM: "+result.uom+"</p>");
 		  		$(".qty").val(result.qty);
+		  		$(".rate").val(result.cost);
 		  	}
 		  })	
 		});

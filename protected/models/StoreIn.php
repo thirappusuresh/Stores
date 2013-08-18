@@ -47,12 +47,12 @@ class StoreIn extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('iid, quantity, current_quantity, date, vehicle, received_from, rate, date_created, created_by', 'required'),
-			array('iid, quantity, current_quantity, rate', 'numerical', 'integerOnly'=>true),
+			array('iid, quantity, date, vehicle, received_from, rate, date_created, created_by', 'required'),
+			array('iid, quantity, rate', 'numerical', 'integerOnly'=>true, 'min'=>0),
 			array('vehicle, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('sin_id, iid, quantity, current_quantity, date, vehicle, received_from, rate, date_created, created_by', 'safe', 'on'=>'search'),
+			array('sin_id, iid, quantity, date, vehicle, received_from, rate, date_created, created_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -78,7 +78,6 @@ class StoreIn extends CActiveRecord
 			'sin_id' => 'Sin',
 			'iid' => 'Item Name',
 			'quantity' => 'Quantity',
-			'current_quantity' => 'Current Quantity',
 			'date' => 'Date',
 			'vehicle' => 'Vehicle',
 			'received_from' => 'Received From',
@@ -102,7 +101,6 @@ class StoreIn extends CActiveRecord
 		$criteria->compare('sin_id',$this->sin_id);
 		$criteria->compare('iid',$this->iid);
 		$criteria->compare('quantity',$this->quantity);
-		$criteria->compare('current_quantity',$this->current_quantity);
 		$criteria->compare('date',$this->date,true);
 		$criteria->compare('vehicle',$this->vehicle,true);
 		$criteria->compare('received_from',$this->received_from,true);

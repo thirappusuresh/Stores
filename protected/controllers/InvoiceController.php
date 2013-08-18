@@ -1,6 +1,6 @@
 <?php
 
-class VatController extends Controller
+class InvoiceController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -27,11 +27,11 @@ class VatController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('view'),
+				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','create','update'),
+				'actions'=>array('create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -50,8 +50,40 @@ class VatController extends Controller
 	 */
 	public function actionView($id)
 	{
+
+		$model=$this->loadModel($id);
+		$item= new InvoiceItems;
+		$customer = ClientCustomers::model()->findByPk($model->customer_id);
+
+		if(isset($_POST['InvoiceItems']))
+		{
+			$item->attributes=$_POST['InvoiceItems'];
+			$item->date_created = date('Y-m-d H:i:s', time());
+			$item->created_by = Yii::app()->user->id;
+			$item->invoice_id = $model->invoice_id;
+			if($item->save()) {
+				$item= new InvoiceItems;
+			}
+		}
+		$dataProvider=new CActiveDataProvider('InvoiceItems', array(
+									'criteria'=>array(
+										'condition'=>'invoice_id='.$model->invoice_id,
+								        'order'=>'date_created',
+								    )
+					                ));
+		$CQty = 0;
+		$GAmount = 0;
+		foreach($dataProvider->getData() as $record) {
+		    $GAmount = $GAmount + ($record->rate * $record->quantity);
+		    $CQty = $CQty + $record->quantity;
+		}
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$model,
+			'item'=>$item,
+			'customer'=>$customer,
+			'dataProvider'=>$dataProvider,
+			'GAmount'=>$GAmount,
+			'CQty'=>$CQty
 		));
 	}
 
@@ -61,16 +93,20 @@ class VatController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Vat;
+		$model=new Invoice;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Vat']))
+		if(isset($_POST['Invoice']))
 		{
-			$model->attributes=$_POST['Vat'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->vid));
+			$model->attributes=$_POST['Invoice'];
+			$model->invoice_id = date('YmdHis', time());
+			$model->date_created = date('Y-m-d H:i:s', time());
+			$model->created_by = Yii::app()->user->id;
+			if($model->save()) {
+				$this->redirect(array('view','id'=>$model->invoice_id));
+			}
 		}
 
 		$this->render('create',array(
@@ -90,11 +126,11 @@ class VatController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Vat']))
+		if(isset($_POST['Invoice']))
 		{
-			$model->attributes=$_POST['Vat'];
+			$model->attributes=$_POST['Invoice'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->vid));
+				$this->redirect(array('view','id'=>$model->invoice_id));
 		}
 
 		$this->render('update',array(
@@ -127,26 +163,9 @@ class VatController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model = new Vat;
-		$dataProvider=new CActiveDataProvider('Vat', array(
-											'criteria'=>array(
-										        'order'=>'date_created DESC',
-										    ),
-							                'pagination'=>array(
-							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
-							                )));
-		if(isset($_POST['Vat']))
-		{
-			$model->attributes=$_POST['Vat'];
-			$model->date_created = date('Y-m-d H:i:s', time());
-			$model->created_by = Yii::app()->user->id;
-			if($model->save()) {
-				Yii::app()->user->setFlash('info','Successfully submitted!!!');
-				$this->redirect(array('index'));
-			}
-		}
+		$dataProvider=new CActiveDataProvider('Invoice');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider, 'model'=>$model
+			'dataProvider'=>$dataProvider,
 		));
 	}
 
@@ -155,10 +174,10 @@ class VatController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Vat('search');
+		$model=new Invoice('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Vat']))
-			$model->attributes=$_GET['Vat'];
+		if(isset($_GET['Invoice']))
+			$model->attributes=$_GET['Invoice'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -172,7 +191,7 @@ class VatController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Vat::model()->findByPk($id);
+		$model=Invoice::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -184,7 +203,7 @@ class VatController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='vat-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='invoice-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

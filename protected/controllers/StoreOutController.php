@@ -104,14 +104,14 @@ class StoreOutController extends Controller
 	
 	public function actionGetFields($id) {
 		$val = Items::model()->findByPk($id);
-		$qty = StoreIn::model()->find(array('select'=>'*',
+		$store = StoreIn::model()->find(array('select'=>'*',
 											'condition'=>'iid=:iid',
 											'params'=>array(':iid'=>$id)));
-		$curr_qty = 0;
-		if($qty) {
-			$curr_qty = $qty->current_quantity;
+		$cost = 0;
+		if($store) {
+			$cost = $store->rate;
 		}									
-		$retVal = array("uom"=>$val->uom, "qty"=>$curr_qty);
+		$retVal = array("uom"=>$val->uom, "qty"=>$val->current_quantity, "cost"=>$cost);
 		echo json_encode($retVal);
 	}
 
@@ -141,24 +141,30 @@ class StoreOutController extends Controller
 	public function actionIndex()
 	{
 		$model=new StoreOut;
-		$dataProvider=new CActiveDataProvider('StoreOut');
+		$dataProvider=new CActiveDataProvider('StoreOut', array(
+											'criteria'=>array(
+										        'order'=>'date DESC',
+										    ),
+							                'pagination'=>array(
+							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
+							                )));
 		if(isset($_POST['StoreOut']))
 		{
 			$model->attributes=$_POST['StoreOut'];
 			$model->date_created = date('Y-m-d H:i:s', time());
 			$model->created_by = Yii::app()->user->id;
-			$in = StoreIn::model()->find(array('select'=>'*',
+			$item = Items::model()->find(array('select'=>'*',
 											'condition'=>'iid=:iid',
 											'params'=>array(':iid'=>$model->iid)));
-			$in->current_quantity = $in->current_quantity - $model->quantity;
-			if($in->current_quantity >= 0) {
-				if($in->save() && $model->save()) {
-					Yii::app()->user->setFlash('info','Successfully created!!!');
+			$item->current_quantity = $item->current_quantity - $model->quantity;
+			if($item->current_quantity >= 0) {
+				if($item->save() && $model->save()) {
+					Yii::app()->user->setFlash('info','Successfully submitted!!!');
 					$this->redirect(array('index'));
 				}
 			}
 			else {
-				$model->addError('quantity','Please try to give lesser quantity!!!');
+				$model->addError('quantity','Product is not available at this quantity, try to give lesser quantity!!!');
 			}
 		}
 		$this->render('index',array(

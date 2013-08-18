@@ -127,9 +127,27 @@ class ClientCustomersController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('ClientCustomers');
+		$model=new ClientCustomers;
+		$dataProvider=new CActiveDataProvider('ClientCustomers', array(
+											'criteria'=>array(
+										        'order'=>'date_created DESC',
+										    ),
+							                'pagination'=>array(
+							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
+							                )));
+		if(isset($_POST['ClientCustomers']))
+		{
+			$model->attributes=$_POST['ClientCustomers'];
+			$model->date_created = date('Y-m-d H:i:s', time());
+			$model->created_by = Yii::app()->user->id;
+			$model->cid = ClientUsers::model()->findByPk(Yii::app()->user->id)->cid;
+			if($model->save()) {
+				Yii::app()->user->setFlash('info','Successfully submitted!!!');
+				$this->redirect(array('index'));
+			}
+		}		
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'dataProvider'=>$dataProvider,'model'=>$model
 		));
 	}
 

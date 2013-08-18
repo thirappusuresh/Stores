@@ -43,10 +43,10 @@
 		    'dataProvider'=>$dataProvider,
 		    'template'=>"{items}\n{pager}",
 		    'columns'=>array(
-		        array('name'=>'item_name', 'header'=>'Attribute Name'),
-		        array('name'=>'uom', 'header'=>'Data Type'),
+		        array('name'=>'item_name', 'header'=>'Item Name'),
+		        array('name'=>'uom', 'header'=>'UOM'),
+		        array('name'=>'current_quantity', 'header'=>'Current Qty'),
 		        array('name'=>'item_type', 'header'=>'Starts/Greater Than'),
-		        array('name'=>'date_created', 'header'=>'Ends/Less Than'),
 		    ),
 		)); ?>
 	</div>
