@@ -13,9 +13,12 @@
 		    'template'=>"{items}\n{pager}",
 		    'columns'=>array(
 		    	array('value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)', 'header'=>'S.No'),
-		        array('name'=>'invoice_id', 'header'=>'Invoice No'),
-		        array('name'=>'customer.customer_name', 'header'=>'Customer Name'),
-		        array('name'=>'date_created', 'header'=>'Date Created'),
+		        array('name'=>'docket_no', 'header'=>'Docket No'),
+		        array('name'=>'job_no', 'header'=>'Job No'),
+		        array('name'=>'date', 'header'=>'Date Created'),
+		        array('name'=>'client_name', 'header'=>'Client Name'),
+		        array('name'=>'site_name', 'header'=>'Site Name'),
+		        array('name'=>'address', 'header'=>'Address'),
 		        array(
 		            'class'=>'bootstrap.widgets.TbButtonColumn',
 		            'header'=>'update',
@@ -23,11 +26,11 @@
 		        	'buttons'=>array(
 		        		'update'=>
 		        			array(
-		        				'url'=>'Yii::app()->createUrl("/invoice/view", array("id"=>$data->invoice_id))',
+		        				'url'=>'Yii::app()->createUrl("/dc/view", array("id"=>$data->docket_no))',
 		        			),
 		        		'print'=>
 		        			array(
-		        				'url'=>'Yii::app()->createUrl("/invoice/generatePdf", array("id"=>$data->invoice_id))',
+		        				'url'=>'Yii::app()->createUrl("/dc/generatePdf", array("id"=>$data->docket_no))',
 		        			),
 		        	),
 		            'htmlOptions'=>array(),

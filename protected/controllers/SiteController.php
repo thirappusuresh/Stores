@@ -78,6 +78,17 @@ class SiteController extends Controller
 							                )));
 				$this->render('invoice',array('model'=>$model, 'dataProvider'=>$dataProvider));	 				
 			}
+			else if($model->type == 'Delivery Challan') {
+				$dataProvider=new CActiveDataProvider('Dc', array(
+											'criteria'=>array(
+										        'order'=>'date_created DESC',
+										        'condition'=>'cid='.Yii::app()->user->cid.' AND DATE_FORMAT(date_created,\'%m/%d/%Y\') BETWEEN \''.$model->fromDate.'\' AND \''.$model->thruDate.'\'',
+										    ),
+							                'pagination'=>array(
+							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
+							                )));
+				$this->render('dc',array('model'=>$model, 'dataProvider'=>$dataProvider));	 				
+			}
 		}
 		else {
 			$this->render('reports',array('model'=>$model));

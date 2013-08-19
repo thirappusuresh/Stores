@@ -1,12 +1,12 @@
 <?php
 
-class StoreInController extends Controller
+class DcItemsController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column';
+	public $layout='//layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -27,15 +27,15 @@ class StoreInController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('view'),
+				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','create','update','getUom','delete'),
+				'actions'=>array('create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin'),
+				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -61,16 +61,16 @@ class StoreInController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new StoreIn;
+		$model=new DcItems;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['StoreIn']))
+		if(isset($_POST['DcItems']))
 		{
-			$model->attributes=$_POST['StoreIn'];
+			$model->attributes=$_POST['DcItems'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->sin_id));
+				$this->redirect(array('view','id'=>$model->product_code));
 		}
 
 		$this->render('create',array(
@@ -90,23 +90,16 @@ class StoreInController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['StoreIn']))
+		if(isset($_POST['DcItems']))
 		{
-			$model->attributes=$_POST['StoreIn'];
-			if($model->save()) {
-				Yii::app()->user->setFlash('info','Successfully submitted!!!');
-				$this->redirect(array('index'));
-			}
+			$model->attributes=$_POST['DcItems'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->product_code));
 		}
 
 		$this->render('update',array(
 			'model'=>$model,
 		));
-	}
-	
-	public function actionGetUom($id) {
-		$val = Items::model()->findByPk($id);
-		echo $val->uom;
 	}
 
 	/**
@@ -134,33 +127,9 @@ class StoreInController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model=new StoreIn;
-		$dataProvider=new CActiveDataProvider('StoreIn', array(
-											'criteria'=>array(
-										        'order'=>'date DESC',
-										        'condition'=>'cid='.Yii::app()->user->cid,
-										    ),
-							                'pagination'=>array(
-							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
-							                )));
-		if(isset($_POST['StoreIn']))
-		{
-			$model->attributes=$_POST['StoreIn'];
-			$model->date_created = date('Y-m-d H:i:s', time());
-			$model->created_by = Yii::app()->user->id;
-			$model->cid = Yii::app()->user->cid;
-			if($model->save()) {
-				$item = Items::model()->find(array('select'=>'*',
-								'condition'=>'iid=:iid',
-								'params'=>array(':iid'=>$model->iid)));
-				$item->current_quantity = $item->current_quantity + $model->quantity;
-				$item->save();
-				Yii::app()->user->setFlash('info','Successfully submitted!!!');
-				$this->redirect(array('index'));
-			}
-		}
+		$dataProvider=new CActiveDataProvider('DcItems');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,'model'=>$model
+			'dataProvider'=>$dataProvider,
 		));
 	}
 
@@ -169,10 +138,10 @@ class StoreInController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new StoreIn('search');
+		$model=new DcItems('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['StoreIn']))
-			$model->attributes=$_GET['StoreIn'];
+		if(isset($_GET['DcItems']))
+			$model->attributes=$_GET['DcItems'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -186,7 +155,7 @@ class StoreInController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=StoreIn::model()->findByPk($id);
+		$model=DcItems::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -198,7 +167,7 @@ class StoreInController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='store-in-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='dc-items-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

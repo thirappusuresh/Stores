@@ -124,11 +124,15 @@
 		       	array(
 		            'class'=>'bootstrap.widgets.TbButtonColumn',
 		            'header'=>'update',
-		        	'template'=>'{update}',
+		        	'template'=>'{update}/{delete}',
 		        	'buttons'=>array(
 		        		'update'=>
 		        			array(
 		        				'url'=>'Yii::app()->createUrl("/storeIn/update", array("id"=>$data->sin_id))',
+		        			),
+		        		'delete'=>
+		        			array(
+		        				'url'=>'Yii::app()->createUrl("/storeIn/delete", array("id"=>$data->sin_id))',
 		        			),
 		        	),
 		            'htmlOptions'=>array(),
