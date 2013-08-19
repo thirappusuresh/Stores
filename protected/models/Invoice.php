@@ -48,7 +48,7 @@ class Invoice extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('invoice_id, customer_id, pump, esugam, cst, ecc, tariff, commodity, vat, date_created, created_by', 'required'),
+			array('invoice_id, customer_id, pump, esugam, cst, ecc, tariff, commodity, vat, date_created, created_by, cid', 'required'),
 			array('customer_id, vat', 'numerical', 'integerOnly'=>true),
 			array('invoice_id, pump, esugam, cst, ecc, tariff, commodity, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().

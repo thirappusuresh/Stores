@@ -38,6 +38,51 @@ class SiteController extends Controller
 	        	$this->render('error', $error);
 	    }
 	}
+	
+	public function actionReports() {
+		$this->layout="//layouts/column";
+		$model = new Report;
+		if(isset($_POST['Report']))
+		{
+			$model->attributes=$_POST['Report'];
+			if($model->type == 'Store In') {
+				$dataProvider=new CActiveDataProvider('StoreIn', array(
+											'criteria'=>array(
+										        'order'=>'date DESC',
+										        'condition'=>'cid='.Yii::app()->user->cid.' AND date BETWEEN \''.$model->fromDate.'\' AND \''.$model->thruDate.'\'',
+										    ),
+							                'pagination'=>array(
+							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
+							                )));
+				$this->render('storeIn',array('model'=>$model, 'dataProvider'=>$dataProvider));	                
+			} 
+			else if($model->type == 'Store Out') {
+				$dataProvider=new CActiveDataProvider('StoreOut', array(
+											'criteria'=>array(
+										        'order'=>'date DESC',
+										        'condition'=>'cid='.Yii::app()->user->cid.' AND date BETWEEN \''.$model->fromDate.'\' AND \''.$model->thruDate.'\'',
+										    ),
+							                'pagination'=>array(
+							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
+							                )));
+				$this->render('storeOut',array('model'=>$model, 'dataProvider'=>$dataProvider));	 				
+			}
+			else if($model->type == 'Invoice') {
+				$dataProvider=new CActiveDataProvider('Invoice', array(
+											'criteria'=>array(
+										        'order'=>'date_created DESC',
+										        'condition'=>'cid='.Yii::app()->user->cid.' AND DATE_FORMAT(date_created,\'%m/%d/%Y\') BETWEEN \''.$model->fromDate.'\' AND \''.$model->thruDate.'\'',
+										    ),
+							                'pagination'=>array(
+							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
+							                )));
+				$this->render('invoice',array('model'=>$model, 'dataProvider'=>$dataProvider));	 				
+			}
+		}
+		else {
+			$this->render('reports',array('model'=>$model));
+		}
+	}
 
 	/**
 	 * Displays the login page

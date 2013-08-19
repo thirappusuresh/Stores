@@ -1,5 +1,6 @@
 <div class="row-fluid">
 	<div class="span5 offset1 well">
+	
 		<fieldset><legend>Items</legend></fieldset>
 		<?php $this->widget('bootstrap.widgets.TbAlert', array(
 	        'block'=>true, // display a larger alert block?

@@ -45,7 +45,7 @@ class Items extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('item_name, uom, current_quantity, item_type, date_created, created_by', 'required'),
+			array('item_name, uom, current_quantity, item_type, date_created, created_by, cid', 'required'),
 			array('current_quantity', 'numerical', 'integerOnly'=>true, 'min'=>0),
 			array('item_name, uom, item_type, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().

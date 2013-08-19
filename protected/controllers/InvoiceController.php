@@ -27,11 +27,11 @@ class InvoiceController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('view', 'create', 'update', 'generatePdf'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -86,6 +86,49 @@ class InvoiceController extends Controller
 			'CQty'=>$CQty
 		));
 	}
+	
+	public function actionGeneratePdf($id) {
+		$model=$this->loadModel($id);
+		$item= new InvoiceItems;
+		$customer = ClientCustomers::model()->findByPk($model->customer_id);
+
+		$dataProvider=new CActiveDataProvider('InvoiceItems', array(
+									'criteria'=>array(
+										'condition'=>'invoice_id='.$model->invoice_id,
+								        'order'=>'date_created',
+								    )
+					                ));
+
+
+/*		$html2pdf = Yii::app()->ePdf->HTML2PDF();
+        $html2pdf->WriteHTML($this->renderPartial('pdf',array(
+															'model'=>$model,
+															'item'=>$item,
+															'customer'=>$customer,
+															'dataProvider'=>$dataProvider,
+															'GAmount'=>$GAmount,
+															'CQty'=>$CQty
+														), true));
+        $html2pdf->Output();*/
+        # mPDF
+        $mPDF1 = Yii::app()->ePdf->mpdf();
+ 
+        # Load a stylesheet
+        $stylesheet = file_get_contents(Yii::getPathOfAlias('webroot.css') . '/bootstrap.css');
+        $mPDF1->WriteHTML($stylesheet, 1);
+        
+        # renderPartial (only 'view' of current controller)
+        $mPDF1->WriteHTML($this->renderPartial('pdf',array(
+														'model'=>$model,
+														'item'=>$item,
+														'customer'=>$customer,
+														'dataProvider'=>$dataProvider,
+													),  true));
+
+ 
+        # Outputs ready PDF
+        $mPDF1->Output();
+	}
 
 	/**
 	 * Creates a new model.
@@ -104,6 +147,7 @@ class InvoiceController extends Controller
 			$model->invoice_id = date('YmdHis', time());
 			$model->date_created = date('Y-m-d H:i:s', time());
 			$model->created_by = Yii::app()->user->id;
+			$model->cid = Yii::app()->user->cid;
 			if($model->save()) {
 				$this->redirect(array('view','id'=>$model->invoice_id));
 			}

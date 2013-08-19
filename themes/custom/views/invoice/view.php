@@ -20,44 +20,35 @@
 		
 		<?php $this->endWidget(); ?>
 	
-		<fieldset><legend>Invoice</legend></fieldset>
+		<fieldset><legend>Invoice<a class="pull-right btn btn-small btn-primary" href="/invoice/generatePdf/id/<?php echo $model->invoice_id;?>">Generate Pdf</a></legend></fieldset>
 		<div style="text-align: center;">
 			<h3><?php echo $customer->company->company_name; ?></h3>
 			<p><?php echo $customer->company->address; ?></p>
 		</div>
 		<div class="row-fluid">
-			<div class="span4 offset8">
-				<p><?php echo "TIN: ".$customer->company->tin; ?></p>
-			</div>
-		</div>
-		<div class="row-fluid">
 			<div class="span4 ">
-				<p><?php echo "Customer Name: ".$customer->customer_name; ?></p>
-				<p><?php echo "Address: ".$customer->address; ?></p>
-			</div>
+				<table>
+					<tr><td>Customer Name: </td><td><?php echo $customer->customer_name; ?></td></tr>
+					<tr><td>Address: </td><td><?php echo $customer->address; ?></td></tr>
+					<tr><td>Site Address: </td><td><?php echo $customer->site_address; ?></td></tr>
+					<tr><td>CST No: </td><td><?php echo $model->cst; ?></td></tr>
+					<tr><td>ECC No Reg No: </td><td><?php echo $model->ecc; ?></td></tr>
+					<tr><td>Tarrif Heading No: </td><td><?php echo $model->tariff; ?></td></tr>
+					<tr><td>Excisable Commoditiy: </td><td><?php echo $model->commodity; ?></td></tr>
+					
+				</table>
+			</div>		
 			<div class="span4 offset4">
-				<p><?php echo "Invoice Number: ".$model->invoice_id; ?></p>
-				<p><?php echo "Customer TIN: ".$customer->company->tin; ?></p>
-				<p><?php echo "PO Number: ".$customer->po_number; ?></p>
+				<table>
+					<tr><td>TIN: </td><td><?php echo $customer->company->tin; ?></td></tr>
+					<tr><td>Invoice Number: </td><td><?php echo $model->invoice_id; ?></td></tr>
+					<tr><td>Customer TIN: </td><td><?php echo $customer->company->tin; ?></td></tr>
+					<tr><td>PO Number: </td><td><?php echo $customer->po_number; ?></td></tr>
+					<tr><td>Pump: </td><td><?php echo $model->pump; ?></td></tr>
+					<tr><td>Esugam Number: </td><td><?php echo $model->esugam; ?></td></tr>
+				</table>
 			</div>
 		</div>
-		<div class="row-fluid">
-			<div class="span4 ">
-				<p><?php echo "Site Address: ".$customer->site_address; ?></p>
-			</div>
-			<div class="span4 offset4">
-				<p><?php echo "Pump: ".$model->pump; ?></p>
-				<p><?php echo "Esugam Number: ".$model->esugam; ?></p>
-			</div>
-		</div>
-		<div class="row-fluid">
-			<div class="span4 ">
-				<p><?php echo "CST No: ".$model->cst; ?></p>
-				<p><?php echo "ECC No Reg No: ".$model->ecc; ?></p>
-				<p><?php echo "Tarrif Heading No: ".$model->tariff; ?></p>
-				<p><?php echo "Excisable Commoditiy: ".$model->commodity; ?></p>
-			</div>
-		</div>	
 		<?php 
 		$this->widget('bootstrap.widgets.TbGridView', array(
 		    'type'=>'striped bordered condensed',
@@ -71,14 +62,19 @@
 		        array('value'=>'$data->rate * $data->quantity', 'header'=>'Amount(Rs)'),
 		    ),
 		)); ?>	
+
 		<div class="row-fluid">
 			<div class="span4 ">
-				<p><?php echo "Cumulative Quantity: ".$CQty; ?></p>
+				<table>
+					<tr><td>Cumulative Quantity: </td><td><?php echo $CQty; ?></td></tr>
+				</table>
 			</div>
 			<div class="span4 offset4">
-				<p><?php echo "Gross Amount: ".$GAmount; ?></p>
-				<p><?php echo "VAT %: ".$model->v->vat_percentage; ?></p>
-				<p><?php echo "Total Invoice Amount: ".(($GAmount*$model->v->vat_percentage)/100); ?></p>
+				<table>
+					<tr><td>Gross Amount: </td><td><?php echo $GAmount; ?></td></tr>
+					<tr><td>VAT %: </td><td><?php echo $model->v->vat_percentage; ?></td></tr>
+					<tr><td>Total Invoice Amount: </td><td><?php echo $GAmount+(($GAmount*$model->v->vat_percentage)/100); ?></td></tr>
+				</table>
 			</div>
 		</div>
 	</div>

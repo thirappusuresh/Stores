@@ -46,7 +46,7 @@ class StoreOut extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('iid, quantity, date, vehicle, issued_to, rate, date_created, created_by', 'required'),
+			array('iid, quantity, date, vehicle, issued_to, rate, date_created, created_by, cid', 'required'),
 			array('iid, quantity, rate', 'numerical', 'integerOnly'=>true, 'min'=>0),
 			array('vehicle, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().

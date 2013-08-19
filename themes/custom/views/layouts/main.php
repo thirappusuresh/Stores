@@ -48,6 +48,7 @@
 					      <li><a title="Items" href="/items">Items</a></li>
 					      <li><a title="Vat" href="/vat">Vat</a></li>
 					      <li><a title="Invoice" href="/invoice/create">Invoice</a></li>
+					      <li><a title="Reports" href="/site/reports">Reports</a></li>
 					      <li><a title="Logout" href="/site/logout">Logout</a></li>
 					    </ul>
 					  </div><!--/.nav-collapse -->

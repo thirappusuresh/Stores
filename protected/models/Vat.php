@@ -41,7 +41,7 @@ class Vat extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('vat_name, vat_percentage, date_created, created_by', 'required'),
+			array('vat_name, vat_percentage, date_created, created_by, cid', 'required'),
 			array('vat_percentage', 'numerical'),
 			array('vat_name, created_by', 'length', 'max'=>222),
 			// The following rule is used by search().

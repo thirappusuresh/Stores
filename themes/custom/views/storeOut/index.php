@@ -120,6 +120,18 @@
 		        array('name'=>'quantity', 'header'=>'Qty'),
 		        array('name'=>'rate', 'header'=>'Unit Cost'),
 		        array('value'=>'$data->rate * $data->quantity', 'header'=>'Total Cost'),
+		       	array(
+		            'class'=>'bootstrap.widgets.TbButtonColumn',
+		            'header'=>'update',
+		        	'template'=>'{update}',
+		        	'buttons'=>array(
+		        		'update'=>
+		        			array(
+		        				'url'=>'Yii::app()->createUrl("/storeOut/update", array("id"=>$data->sout_id))',
+		        			),
+		        	),
+		            'htmlOptions'=>array(),
+		        ),
 		    ),
 		)); ?>		
 	</div>

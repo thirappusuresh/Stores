@@ -93,8 +93,10 @@ class StoreOutController extends Controller
 		if(isset($_POST['StoreOut']))
 		{
 			$model->attributes=$_POST['StoreOut'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->sout_id));
+			if($model->save()) {
+				Yii::app()->user->setFlash('info','Successfully submitted!!!');
+				$this->redirect(array('index'));
+			}
 		}
 
 		$this->render('update',array(
@@ -144,6 +146,7 @@ class StoreOutController extends Controller
 		$dataProvider=new CActiveDataProvider('StoreOut', array(
 											'criteria'=>array(
 										        'order'=>'date DESC',
+										        'condition'=>'cid='.Yii::app()->user->cid,
 										    ),
 							                'pagination'=>array(
 							                        'pageSize'=>Yii::app()->params['itemsPerPage'],
@@ -153,6 +156,7 @@ class StoreOutController extends Controller
 			$model->attributes=$_POST['StoreOut'];
 			$model->date_created = date('Y-m-d H:i:s', time());
 			$model->created_by = Yii::app()->user->id;
+			$model->cid = Yii::app()->user->cid;
 			$item = Items::model()->find(array('select'=>'*',
 											'condition'=>'iid=:iid',
 											'params'=>array(':iid'=>$model->iid)));

@@ -1,5 +1,6 @@
 <div class="row-fluid">
 	<div class="span6 offset3">
+	
 		<?php $this->widget('bootstrap.widgets.TbAlert', array(
 		        'block'=>true, // display a larger alert block?
 		        'fade'=>true, // use transitions?
