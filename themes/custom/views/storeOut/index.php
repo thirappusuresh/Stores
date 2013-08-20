@@ -17,7 +17,8 @@
 			'type'=>'horizontal'
 		)); ?>
 		
-			<?php echo $form->dropDownListRow($model,'iid', CHtml::listData(Items::model()->findAll(),'iid','item_name'),array('class'=>'span11 item'));?>
+			<?php echo $form->dropDownListRow($model,'iid', CHtml::listData(Items::model()->findAll(array('condition'=>'cid=:cid AND item_type="Store Item" ORDER BY item_name', 
+										 							'params'=>array(':cid'=>Yii::app()->user->cid))),'iid','item_name'),array('class'=>'span11 item'));?>
 			<div class="control-group" id="loading" style="display:none;">
 				<div class="controls">
 					<img src="<?php echo Yii::app()->params['location']; ?>loading.gif" />

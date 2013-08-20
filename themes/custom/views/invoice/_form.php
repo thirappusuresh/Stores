@@ -6,7 +6,8 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<?php echo $form->dropDownListRow($model,'customer_id', CHtml::listData(ClientCustomers::model()->findAll(),'customer_id','customer_name'),array('class'=>'span8'));?>
+	<?php echo $form->dropDownListRow($model,'customer_id', CHtml::listData(ClientCustomers::model()->findAll(array('condition'=>'cid=:cid ORDER BY customer_name', 
+										 							'params'=>array(':cid'=>Yii::app()->user->cid))),'customer_id','customer_name'),array('class'=>'span8'));?>
 	
 	<?php echo $form->textFieldRow($model,'pump',array('class'=>'span8','maxlength'=>222)); ?>
 
@@ -20,7 +21,8 @@
 
 	<?php echo $form->textFieldRow($model,'commodity',array('class'=>'span8','maxlength'=>222)); ?>
 
-	<?php echo $form->dropDownListRow($model,'vat', CHtml::listData(Vat::model()->findAll(),'vid','vat_name'),array('class'=>'span8'));?>
+	<?php echo $form->dropDownListRow($model,'vat', CHtml::listData(Vat::model()->findAll(array('condition'=>'cid=:cid ORDER BY vat_name', 
+										 							'params'=>array(':cid'=>Yii::app()->user->cid))),'vid','vat_name'),array('class'=>'span8'));?>
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(

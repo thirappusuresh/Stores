@@ -131,6 +131,7 @@ class ClientCustomersController extends Controller
 		$dataProvider=new CActiveDataProvider('ClientCustomers', array(
 											'criteria'=>array(
 										        'order'=>'date_created DESC',
+										        'condition'=>'cid='.Yii::app()->user->cid,
 										    ),
 							                'pagination'=>array(
 							                        'pageSize'=>Yii::app()->params['itemsPerPage'],

@@ -6,7 +6,8 @@
 			'enableAjaxValidation'=>false,
 		)); ?>
 			
-			<?php echo $form->dropDownListRow($item,'iid', CHtml::listData(Items::model()->findAll(),'iid','item_name'),array('class'=>'span4'));?>
+			<?php echo $form->dropDownListRow($item,'iid', CHtml::listData(Items::model()->findAll(array('condition'=>'cid=:cid AND item_type="Invoice Item" ORDER BY item_name', 
+										 							'params'=>array(':cid'=>Yii::app()->user->cid))),'iid','item_name'),array('class'=>'span4'));?>
 		
 			<?php echo $form->textFieldRow($item,'quantity',array('class'=>'span3')); ?>
 		
